@@ -1,0 +1,15 @@
+    // cpuType: "rv32gcv"
+cpu: CPU.RiscV32 @ sysbus
+    cpuType: "rv32imac"
+
+
+ram: Memory.MappedMemory @ sysbus 0x30000000
+    size: 0x01000000
+    
+sa16: Verilated.BaseDoubleWordVerilatedPeripheral @ sysbus <0x80000000, +0x10000>
+    SimulationFilePath: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build_main/libVtop.so"
+    frequency: 50000000 
+    // 1MHz -> 50MHz
+
+uart: UART.LiteX_UART @ sysbus 0x82002000
+    -> cpu@0

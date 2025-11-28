@@ -1,0 +1,19 @@
+------------------------------------------------------------------------------------------------------------
+Benchmark                                                  Time             CPU   Iterations UserCounters...
+------------------------------------------------------------------------------------------------------------
+BM_torch-jit-export/process_time/real_time              10.9 ms         2.35 ms           65 items_per_second=91.8525/s
+BM_torch-jit-export/process_time/real_time              10.9 ms         2.32 ms           65 items_per_second=91.6667/s
+BM_torch-jit-export/process_time/real_time              10.9 ms         2.35 ms           65 items_per_second=91.8474/s
+BM_torch-jit-export/process_time/real_time              11.0 ms         2.27 ms           65 items_per_second=91.0446/s
+BM_torch-jit-export/process_time/real_time              10.9 ms         2.33 ms           65 items_per_second=91.3849/s
+BM_torch-jit-export/process_time/real_time              10.9 ms         2.35 ms           65 items_per_second=91.6114/s
+BM_torch-jit-export/process_time/real_time              11.0 ms         2.30 ms           65 items_per_second=90.9678/s
+BM_torch-jit-export/process_time/real_time              11.0 ms         2.24 ms           65 items_per_second=90.9982/s
+BM_torch-jit-export/process_time/real_time              11.0 ms         2.27 ms           65 items_per_second=91.0089/s
+BM_torch-jit-export/process_time/real_time              11.0 ms         2.22 ms           65 items_per_second=91.0005/s
+BM_torch-jit-export/process_time/real_time_mean         10.9 ms         2.30 ms           10 items_per_second=91.3383/s
+BM_torch-jit-export/process_time/real_time_median       11.0 ms         2.31 ms           10 items_per_second=91.2147/s
+BM_torch-jit-export/process_time/real_time_stddev      0.045 ms        0.048 ms           10 items_per_second=0.375623/s
+BM_torch-jit-export/process_time/real_time_cv           0.41 %          2.07 %            10 items_per_second=0.41%
+[SIM] sa16_deinit done
+--- Custom accelerator deinitialized ---

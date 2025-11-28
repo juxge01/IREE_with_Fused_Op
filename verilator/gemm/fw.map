@@ -1,0 +1,99 @@
+
+There are no discarded input sections
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x30000000         0x01000000         xw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD start.o
+LOAD main.o
+LOAD selftest.o
+LOAD accelerator_runtime.o
+LOAD mlir/offload_sa16.o
+
+.text           0x30000000      0x8be
+ *(.init)
+ .init          0x30000000       0x2a start.o
+                0x30000000                _start
+ *(.text .text.*)
+ .text          0x3000002a        0x0 start.o
+ .text          0x3000002a        0xa main.o
+                0x3000002a                putc
+ .text.startup  0x30000034       0x40 main.o
+                0x30000034                main
+ .text          0x30000074      0x346 selftest.o
+                0x300000aa                run_sa16_linearity_test
+ .text          0x300003ba      0x1d0 accelerator_runtime.o
+                0x300003ba                memset
+                0x300003cc                _mlir_ciface_sa16_load_B
+                0x30000404                _mlir_ciface_sa16_run_tile
+                0x30000476                run_gemm
+ .text          0x3000058a      0x1b6 mlir/offload_sa16.o
+                0x300005f8                offload_tile
+                0x30000694                _mlir_ciface_offload_tile
+ *(.rodata .rodata.*)
+ *fill*         0x30000740        0x0 
+ .rodata.str1.4
+                0x30000740      0x17e main.o
+                                 0x3a (size before relaxing)
+ .rodata.str1.4
+                0x300008be      0x142 selftest.o
+
+.eh_frame       0x300008c0       0xcc
+ .eh_frame      0x300008c0       0xcc mlir/offload_sa16.o
+
+.rela.dyn       0x3000098c        0x0
+ .rela.init     0x3000098c        0x0 start.o
+
+.data           0x3000098c        0x0
+ *(.data .data.*)
+ .data          0x3000098c        0x0 start.o
+ .data          0x3000098c        0x0 main.o
+ .data          0x3000098c        0x0 selftest.o
+ .data          0x3000098c        0x0 accelerator_runtime.o
+ *(.sdata .sdata.*)
+
+.bss            0x3000098c      0x150
+                0x3000098c                        __bss_start = .
+ *(.bss .bss.*)
+ .bss           0x3000098c        0x0 start.o
+ .bss           0x3000098c      0x150 main.o
+                0x3000098c                OUT
+                0x30000a8c                B
+                0x30000acc                A
+ .bss           0x30000adc        0x0 selftest.o
+ .bss           0x30000adc        0x0 accelerator_runtime.o
+ *(.sbss .sbss.*)
+ *(COMMON)
+                0x30000adc                        __bss_end = .
+                0x30000ae0                        . = ALIGN (0x8)
+                0x31000000                        __stack_top = (ORIGIN (RAM) + LENGTH (RAM))
+OUTPUT(fw.elf elf32-littleriscv)
+
+.riscv.attributes
+                0x00000000       0x67
+ .riscv.attributes
+                0x00000000       0x32 start.o
+ .riscv.attributes
+                0x00000032       0x38 main.o
+ .riscv.attributes
+                0x0000006a       0x34 selftest.o
+ .riscv.attributes
+                0x0000009e       0x34 accelerator_runtime.o
+ .riscv.attributes
+                0x000000d2       0x55 mlir/offload_sa16.o
+
+.comment        0x00000000       0x1b
+ .comment       0x00000000       0x1b main.o
+                                 0x1c (size before relaxing)
+ .comment       0x0000001b       0x1c selftest.o
+ .comment       0x0000001b       0x1c accelerator_runtime.o
+
+.note.GNU-stack
+                0x00000000        0x0
+ .note.GNU-stack
+                0x00000000        0x0 mlir/offload_sa16.o

@@ -1,0 +1,55 @@
+
+Discarded input sections
+
+ .riscv.attributes
+                0x0000000000000000       0x29 /tmp/cceAwEuN.o
+ .comment       0x0000000000000000       0x2b /tmp/ccGM0XIU.o
+ .riscv.attributes
+                0x0000000000000000       0x2f /tmp/ccGM0XIU.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x0000000030000000 0x0000000001000000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /tmp/cceAwEuN.o
+LOAD /tmp/ccGM0XIU.o
+                0x0000000031000000                __stack_top = (ORIGIN (RAM) + LENGTH (RAM))
+
+.text           0x0000000030000000       0xaa
+ *(.init)
+ .init          0x0000000030000000       0x2a /tmp/cceAwEuN.o
+                0x0000000030000000                _start
+ *(.text .text.*)
+ .text          0x000000003000002a        0x0 /tmp/cceAwEuN.o
+ .text          0x000000003000002a        0x0 /tmp/ccGM0XIU.o
+ .text.startup  0x000000003000002a       0x80 /tmp/ccGM0XIU.o
+                0x000000003000002a                main
+ *(.rodata .rodata.*)
+
+.rela.dyn       0x00000000300000ac        0x0
+ .rela.init     0x00000000300000ac        0x0 /tmp/cceAwEuN.o
+
+.data           0x00000000300000aa        0x0
+                0x00000000300000aa                __data_start = .
+ *(.data .data.*)
+ .data          0x00000000300000aa        0x0 /tmp/cceAwEuN.o
+ .data          0x00000000300000aa        0x0 /tmp/ccGM0XIU.o
+                0x00000000300000aa                __data_end = .
+
+.bss            0x00000000300000aa        0x0
+                0x00000000300000aa                __bss_start = .
+ *(.bss .bss.*)
+ .bss           0x00000000300000aa        0x0 /tmp/cceAwEuN.o
+ .bss           0x00000000300000aa        0x0 /tmp/ccGM0XIU.o
+ *(COMMON)
+                0x00000000300000aa                __bss_end = .
+
+/DISCARD/
+ *(.comment*)
+ *(.eh_frame*)
+ *(.riscv.attributes*)
+OUTPUT(fw.elf elf32-littleriscv)

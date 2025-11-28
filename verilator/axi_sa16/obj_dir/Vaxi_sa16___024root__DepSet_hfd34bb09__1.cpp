@@ -1,0 +1,7083 @@
+// Verilated -*- C++ -*-
+// DESCRIPTION: Verilator output: Design implementation internals
+// See Vaxi_sa16.h for the primary calling header
+
+#include "verilated.h"
+
+#include "Vaxi_sa16___024root.h"
+
+VL_INLINE_OPT void Vaxi_sa16___024root___sequent__TOP__3(Vaxi_sa16___024root* vlSelf) {
+    if (false && vlSelf) {}  // Prevent unused
+    Vaxi_sa16__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vaxi_sa16___024root___sequent__TOP__3\n"); );
+    // Body
+    if (vlSelf->rst) {
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_120__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_120__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_121__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_121__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_121__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_121__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_122__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_122__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_122__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_122__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_123__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_123__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_123__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_123__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_124__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_124__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_124__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_124__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_125__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_125__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_125__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_125__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_126__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_126__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_126__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_126__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_127__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_127__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_127__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_127__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_3_r_10 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_2_r_11 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_1_r_12 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_0_r_13 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_7_r_6 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_6_r_7 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_5_r_8 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_4_r_9 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_11_r_2 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_10_r_3 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_9_r_4 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_8_r_5 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_13_r = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_12_r_1 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_255__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_255__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_255__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_255__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_14__DOT__REG_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_30__DOT__REG_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_62__DOT__REG_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_126__DOT__REG_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_3_r_9 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_2_r_10 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_1_r_11 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_0_r_12 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_7_r_5 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_6_r_6 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_5_r_7 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_4_r_8 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_11_r_1 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_10_r_2 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_9_r_3 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_8_r_4 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_12_r = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_255__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_255__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_255__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__REG_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_255__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_13__DOT__REG_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_29__DOT__REG_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_61__DOT__REG_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_125__DOT__REG_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_3_r_8 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_2_r_9 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_1_r_10 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_0_r_11 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_7_r_4 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_6_r_5 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_5_r_6 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_4_r_7 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_11_r = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_10_r_1 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_9_r_2 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_8_r_3 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_219__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_219__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_219__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_219__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_220__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_220__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_220__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_220__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_221__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_221__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_221__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_221__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_222__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_222__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_222__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_222__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_223__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_223__DOT__io_outputC_2_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_223__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__REG_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_223__DOT__io_outputC_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_12__DOT__REG_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_28__DOT__REG_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__REG_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_60__DOT__REG_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_124__DOT__REG_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__REG_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_3_r_7 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_2_r_8 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_1_r_9 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_0_r_10 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_7_r_3 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_6_r_4 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_5_r_5 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_4_r_6 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_242__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_10_r = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_9_r_1 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_8_r_2 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_211__DOT__io_outputC_3_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__io_outputC_1_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG = 0U;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 = 0U;
+    } else {
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__io_outputC_2_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_120__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_119__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_119__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_120__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_120__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__io_outputC_1_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_120__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_119__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_119__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_120__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_120__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__io_outputC_0_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_121__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_120__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_120__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_121__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_121__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__io_outputC_3_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_121__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_120__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_120__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_121__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_121__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__io_outputC_2_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_121__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_120__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_120__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_121__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_121__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__io_outputC_1_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_121__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_120__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_120__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_121__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_121__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__io_outputC_0_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_122__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_121__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_121__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_122__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_122__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__io_outputC_3_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_122__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_121__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_121__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_122__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_122__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__io_outputC_2_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_122__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_121__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_121__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_122__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_122__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__io_outputC_1_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_122__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_121__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_121__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_122__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_122__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__io_outputC_0_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_123__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_122__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_122__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_123__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_123__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__io_outputC_3_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_123__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_122__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_122__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_123__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_123__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__io_outputC_2_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_123__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_122__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_122__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_123__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_123__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__io_outputC_1_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_123__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_122__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_122__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_123__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_123__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__io_outputC_0_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_124__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_123__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_123__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_124__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_124__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__io_outputC_3_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_124__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_123__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_123__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_124__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_124__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__io_outputC_2_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_124__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_123__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_123__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_124__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_124__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__io_outputC_1_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_124__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_123__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_123__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_124__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_124__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__io_outputC_0_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_125__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_124__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_124__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_125__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_125__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__io_outputC_3_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_125__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_124__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_124__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_125__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_125__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__io_outputC_2_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_125__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_124__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_124__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_125__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_125__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__io_outputC_1_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_125__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_124__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_124__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_125__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_125__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__io_outputC_0_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_126__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_125__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_125__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_126__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_126__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__io_outputC_3_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_126__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_125__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_125__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_126__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_126__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__io_outputC_2_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_126__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_125__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_125__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_126__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_126__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__io_outputC_1_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_126__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_125__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_125__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_126__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_126__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__io_outputC_0_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_127__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_126__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_126__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_127__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_127__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__io_outputC_3_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_127__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_126__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_126__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_127__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_127__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__io_outputC_2_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_127__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_126__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_126__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_127__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_127__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__io_outputC_1_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_127__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_126__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_126__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_127__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_127__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__io_outputC_0_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_3_r_10 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_3_r_9;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_2_r_11 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_2_r_10;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_1_r_12 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_1_r_11;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_0_r_13 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_0_r_12;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_7_r_6 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_7_r_5;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_6_r_7 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_6_r_6;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_5_r_8 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_5_r_7;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_4_r_9 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_4_r_8;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_11_r_2 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_11_r_1;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_10_r_3 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_10_r_2;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_9_r_4 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_9_r_3;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_8_r_5 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_8_r_4;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__io_outputC_3_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__io_outputC_2_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_13_r 
+            = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__io_outputC_1_REG;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_12_r_1 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_12_r;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__io_outputC_3_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__io_outputC_2_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__io_outputC_1_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__io_outputC_0_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__io_outputC_3_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__io_outputC_2_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__io_outputC_1_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__io_outputC_0_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__io_outputC_3_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__io_outputC_2_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__io_outputC_1_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__io_outputC_0_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__io_outputC_3_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__io_outputC_2_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__io_outputC_1_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__io_outputC_0_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__io_outputC_3_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__io_outputC_2_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__io_outputC_1_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__io_outputC_0_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__io_outputC_3_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__io_outputC_2_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__io_outputC_1_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__io_outputC_0_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__io_outputC_3_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__io_outputC_2_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__io_outputC_1_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__io_outputC_0_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__io_outputC_3_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__io_outputC_2_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__io_outputC_1_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__io_outputC_0_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__io_outputC_3_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__io_outputC_2_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__io_outputC_1_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__io_outputC_0_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__io_outputC_3_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__io_outputC_2_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__io_outputC_1_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__io_outputC_0_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__io_outputC_3_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__io_outputC_2_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__io_outputC_1_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__io_outputC_0_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_255__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_255__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_255__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__io_outputC_3_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_255__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_255__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_255__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__io_outputC_2_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_255__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_255__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_255__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__io_outputC_1_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_255__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_255__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_255__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__io_outputC_0_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_14__DOT__REG_0 
+            = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_13__DOT__REG_0;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_30__DOT__REG_0 
+            = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_29__DOT__REG_0;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_32__io_inputC_3 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_32__io_inputC_3)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_32__io_inputC_2 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_32__io_inputC_2)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_32__io_inputC_1 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_32__io_inputC_1)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_32__io_inputC_0 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_32__io_inputC_0)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_33__io_inputC_3 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_33__io_inputC_3)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_33__io_inputC_2 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_33__io_inputC_2)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_33__io_inputC_1 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_33__io_inputC_1)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_33__io_inputC_0 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_33__io_inputC_0)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_34__io_inputC_3 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_34__io_inputC_3)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_34__io_inputC_2 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_34__io_inputC_2)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_34__io_inputC_1 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_34__io_inputC_1)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_34__io_inputC_0 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_34__io_inputC_0)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_35__io_inputC_3 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_35__io_inputC_3)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_35__io_inputC_2 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_35__io_inputC_2)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_35__io_inputC_1 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_35__io_inputC_1)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_35__io_inputC_0 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_35__io_inputC_0)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_36__io_inputC_3 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_36__io_inputC_3)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_36__io_inputC_2 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_36__io_inputC_2)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_36__io_inputC_1 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_36__io_inputC_1)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_36__io_inputC_0 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_36__io_inputC_0)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_37__io_inputC_3 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_37__io_inputC_3)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_37__io_inputC_2 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_37__io_inputC_2)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_37__io_inputC_1 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_37__io_inputC_1)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_37__io_inputC_0 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_37__io_inputC_0)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_38__io_inputC_3 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_38__io_inputC_3)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_38__io_inputC_2 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_38__io_inputC_2)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_38__io_inputC_1 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_38__io_inputC_1)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_38__io_inputC_0 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_38__io_inputC_0)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_39__io_inputC_3 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_39__io_inputC_3)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_39__io_inputC_2 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_39__io_inputC_2)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_39__io_inputC_1 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_39__io_inputC_1)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_39__io_inputC_0 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_39__io_inputC_0)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_40__io_inputC_3 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_40__io_inputC_3)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_40__io_inputC_2 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_40__io_inputC_2)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_40__io_inputC_1 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_40__io_inputC_1)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_40__io_inputC_0 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_40__io_inputC_0)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_41__io_inputC_3 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_41__io_inputC_3)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_41__io_inputC_2 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_41__io_inputC_2)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_41__io_inputC_1 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_41__io_inputC_1)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_41__io_inputC_0 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_41__io_inputC_0)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_42__io_inputC_3 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_42__io_inputC_3)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_42__io_inputC_2 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_42__io_inputC_2)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_42__io_inputC_1 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_42__io_inputC_1)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_42__io_inputC_0 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_42__io_inputC_0)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_43__io_inputC_3 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_43__io_inputC_3)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_43__io_inputC_2 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_43__io_inputC_2)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_43__io_inputC_1 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_43__io_inputC_1)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_43__io_inputC_0 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_43__io_inputC_0)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_44__io_inputC_3 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_44__io_inputC_3)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_44__io_inputC_2 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_44__io_inputC_2)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_44__io_inputC_1 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_44__io_inputC_1)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_44__io_inputC_0 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_44__io_inputC_0)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_45__io_inputC_3 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_45__io_inputC_3)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_45__io_inputC_2 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_45__io_inputC_2)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_45__io_inputC_1 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_45__io_inputC_1)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_45__io_inputC_0 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_45__io_inputC_0)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_46__io_inputC_3 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_46__io_inputC_3)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_46__io_inputC_2 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_46__io_inputC_2)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_46__io_inputC_1 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_46__io_inputC_1)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_46__io_inputC_0 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_46__io_inputC_0)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_47__io_inputC_3 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_47__io_inputC_3)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_47__io_inputC_2 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_47__io_inputC_2)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_47__io_inputC_1 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_47__io_inputC_1)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x7ffffU & (((0x70000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x40000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_47__io_inputC_0 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_47__io_inputC_0)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_62__DOT__REG_0 
+            = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_61__DOT__REG_0;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_126__DOT__REG_0 
+            = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_125__DOT__REG_0;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_3_r_9 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_3_r_8;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_2_r_10 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_2_r_9;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_1_r_11 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_1_r_10;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_0_r_12 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_0_r_11;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_7_r_5 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_7_r_4;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_6_r_6 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_6_r_5;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_5_r_7 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_5_r_6;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_4_r_8 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_4_r_7;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_11_r_1 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_11_r;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_10_r_2 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_10_r_1;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_9_r_3 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_9_r_2;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_8_r_4 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_8_r_3;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_242__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_242__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__io_outputC_3_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__io_outputC_2_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__io_outputC_1_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_12_r 
+            = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__io_outputC_0_REG;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__io_outputC_3_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__io_outputC_2_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__io_outputC_1_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__io_outputC_0_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__io_outputC_3_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__io_outputC_2_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__io_outputC_1_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__io_outputC_0_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__io_outputC_3_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__io_outputC_2_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__io_outputC_1_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__io_outputC_0_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__io_outputC_3_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__io_outputC_2_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__io_outputC_1_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__io_outputC_0_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__io_outputC_3_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__io_outputC_2_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__io_outputC_1_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__io_outputC_0_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__io_outputC_3_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__io_outputC_2_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__io_outputC_1_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__io_outputC_0_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__io_outputC_3_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__io_outputC_2_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__io_outputC_1_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__io_outputC_0_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_219__DOT__io_outputC_3_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_219__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_219__DOT__io_outputC_2_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_219__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_219__DOT__io_outputC_1_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_219__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_219__DOT__io_outputC_0_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_219__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_220__DOT__io_outputC_3_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_220__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_220__DOT__io_outputC_2_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_220__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_220__DOT__io_outputC_1_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_220__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_220__DOT__io_outputC_0_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_220__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_221__DOT__io_outputC_3_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_221__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_221__DOT__io_outputC_2_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_221__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_221__DOT__io_outputC_1_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_221__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_221__DOT__io_outputC_0_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_221__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_222__DOT__io_outputC_3_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_222__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_222__DOT__io_outputC_2_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_222__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_222__DOT__io_outputC_1_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_222__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_222__DOT__io_outputC_0_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_222__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_223__DOT__io_outputC_3_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_223__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_223__DOT__io_outputC_2_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_223__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_223__DOT__io_outputC_1_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_223__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__REG_0 
+            = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__REG_0;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_223__DOT__io_outputC_0_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_223__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_13__DOT__REG_0 
+            = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_12__DOT__REG_0;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_29__DOT__REG_0 
+            = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_28__DOT__REG_0;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__preProcessorInputA__DOT__io_output_2_r_2) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__preProcessorInputA__DOT__io_output_2_r_2)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__preProcessorInputA__DOT__io_output_2_r_2) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__preProcessorInputA__DOT__io_output_2_r_2)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__preProcessorInputA__DOT__io_output_2_r_2) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__preProcessorInputA__DOT__io_output_2_r_2)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__preProcessorInputA__DOT__io_output_2_r_2) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__preProcessorInputA__DOT__io_output_2_r_2)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_32__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_33__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_34__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_35__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_36__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_37__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_38__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_39__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_40__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_41__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_42__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_43__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_44__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_47__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_61__DOT__REG_0 
+            = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_60__DOT__REG_0;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__preProcessorInputA__DOT__io_output_6_r_6) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__preProcessorInputA__DOT__io_output_6_r_6)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__io_outputC_3_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__preProcessorInputA__DOT__io_output_6_r_6) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__preProcessorInputA__DOT__io_output_6_r_6)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__io_outputC_2_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__preProcessorInputA__DOT__io_output_6_r_6) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__preProcessorInputA__DOT__io_output_6_r_6)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__io_outputC_1_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__preProcessorInputA__DOT__io_output_6_r_6) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__preProcessorInputA__DOT__io_output_6_r_6)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__io_outputC_0_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__io_outputC_3_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__io_outputC_2_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__io_outputC_1_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_96__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__io_outputC_0_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__io_outputC_3_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__io_outputC_2_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__io_outputC_1_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_97__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__io_outputC_0_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__io_outputC_3_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__io_outputC_2_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__io_outputC_1_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_98__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__io_outputC_0_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__io_outputC_3_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__io_outputC_2_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__io_outputC_1_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_99__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__io_outputC_0_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__io_outputC_3_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__io_outputC_2_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__io_outputC_1_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_100__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__io_outputC_0_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__io_outputC_3_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__io_outputC_2_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__io_outputC_1_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_101__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__io_outputC_0_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__io_outputC_3_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__io_outputC_2_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__io_outputC_1_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_102__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__io_outputC_0_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__io_outputC_3_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__io_outputC_2_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__io_outputC_1_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_103__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__io_outputC_0_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__io_outputC_3_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__io_outputC_2_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__io_outputC_1_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_104__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__io_outputC_0_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__io_outputC_3_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__io_outputC_2_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__io_outputC_1_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_105__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__io_outputC_0_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__io_outputC_3_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__io_outputC_2_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__io_outputC_1_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_106__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__io_outputC_0_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__io_outputC_3_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__io_outputC_2_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__io_outputC_1_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_107__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__io_outputC_0_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__io_outputC_3_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__io_outputC_2_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__io_outputC_1_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_108__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__io_outputC_0_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__io_outputC_3_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__io_outputC_2_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__io_outputC_1_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__io_outputC_0_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__io_outputC_3_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__io_outputC_2_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__io_outputC_1_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_125__DOT__REG_0 
+            = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_124__DOT__REG_0;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_111__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__io_outputC_0_REG 
+            = (0x7ffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_3_r_8 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_3_r_7;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_2_r_9 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_2_r_8;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_1_r_10 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_1_r_9;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_0_r_11 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_0_r_10;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_7_r_4 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_7_r_3;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_6_r_5 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_6_r_4;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_5_r_6 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_5_r_5;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_4_r_7 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_4_r_6;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_11_r 
+            = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_242__DOT__io_outputC_3_REG;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_10_r_1 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_10_r;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_9_r_2 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_9_r_1;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_8_r_3 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_8_r_2;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_211__DOT__io_outputC_3_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_211__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_242__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_242__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        if (vlSelf->axi_sa16__DOT__uut__DOT__REG_15) {
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_244__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_245__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_246__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_247__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_248__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_249__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_250__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_251__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_254__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_255__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_255__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_255__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_255__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0;
+        }
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__io_outputC_2_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__io_outputC_1_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__io_outputC_0_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__io_outputC_3_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__io_outputC_2_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__io_outputC_1_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__io_outputC_0_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__io_outputC_3_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__io_outputC_2_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__io_outputC_1_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__io_outputC_0_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__io_outputC_3_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__io_outputC_2_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__io_outputC_1_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__io_outputC_0_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__io_outputC_3_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__io_outputC_2_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__io_outputC_1_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__io_outputC_0_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__io_outputC_3_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__io_outputC_2_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__io_outputC_1_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__io_outputC_0_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__io_outputC_3_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__io_outputC_2_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__io_outputC_1_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__io_outputC_0_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__io_outputC_3_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__io_outputC_2_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__io_outputC_1_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__io_outputC_0_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_219__DOT__io_outputC_3_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_219__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_219__DOT__io_outputC_2_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_219__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_219__DOT__io_outputC_1_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_219__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_219__DOT__io_outputC_0_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_219__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_220__DOT__io_outputC_3_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_220__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_220__DOT__io_outputC_2_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_220__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_220__DOT__io_outputC_1_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_220__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_235__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_220__DOT__io_outputC_0_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_220__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_221__DOT__io_outputC_3_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_221__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_221__DOT__io_outputC_2_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_221__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_221__DOT__io_outputC_1_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_221__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_236__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_221__DOT__io_outputC_0_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_221__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_222__DOT__io_outputC_3_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_222__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_222__DOT__io_outputC_2_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_222__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_222__DOT__io_outputC_1_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_222__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_237__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_222__DOT__io_outputC_0_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_222__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_223__DOT__io_outputC_3_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_223__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_223__DOT__io_outputC_2_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_223__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_223__DOT__io_outputC_1_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_223__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_253__DOT__REG_0 
+            = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_252__DOT__REG_0;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_238__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_239__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_223__DOT__io_outputC_0_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_223__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_12__DOT__REG_0 
+            = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_11__DOT__REG_0;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_28__DOT__REG_0 
+            = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_27__DOT__REG_0;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_46__DOT__REG_0 
+            = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_45__DOT__REG_0;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_60__DOT__REG_0 
+            = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_59__DOT__REG_0;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_64__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_64__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_64__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_64__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_64__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_64__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_80__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_64__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_64__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_65__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_65__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_65__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_65__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_65__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_65__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_81__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_65__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_65__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_66__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_66__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_66__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_66__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_66__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_66__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_82__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_66__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_66__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_67__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_67__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_67__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_67__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_67__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_67__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_83__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_67__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_67__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_68__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_68__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_68__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_68__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_68__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_68__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_84__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_68__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_68__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_69__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_69__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_69__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_69__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_69__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_69__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_85__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_69__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_69__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_70__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_70__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_70__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_70__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_70__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_70__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_86__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_70__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_70__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_71__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_71__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_71__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_71__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_71__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_71__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_87__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_71__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_71__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_72__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_72__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_72__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_72__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_72__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_72__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_88__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_72__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_72__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_73__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_73__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_73__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_73__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_73__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_73__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_89__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_73__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_73__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_74__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_74__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_74__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_74__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_74__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_74__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_90__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_74__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_74__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_75__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_75__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_75__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_75__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_75__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_75__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_91__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_75__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_75__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_76__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_76__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_76__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_76__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_76__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_76__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_92__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_76__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_76__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_77__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_77__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_77__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_77__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_77__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_77__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_93__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_77__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_77__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_78__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_78__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_78__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_78__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_78__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_78__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_94__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_78__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_78__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_79__DOT__io_outputC_3_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_79__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_79__DOT__io_outputC_2_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_79__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_79__DOT__io_outputC_1_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_79__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_124__DOT__REG_0 
+            = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_123__DOT__REG_0;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_110__DOT__REG_0 
+            = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_109__DOT__REG_0;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0xfffffU & (((0xf0000U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                        >> 0xfU)))) 
+                                         << 0x10U)) 
+                            | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_95__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                           + ((0x80000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_79__DOT__io_outputC_0_REG 
+                                           << 1U)) 
+                              | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_79__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_3_r_7 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_3_r_6;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_2_r_8 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_2_r_7;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_1_r_9 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_1_r_8;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_0_r_10 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_0_r_9;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_7_r_3 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_7_r_2;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_6_r_4 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_6_r_3;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_5_r_5 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_5_r_4;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_4_r_6 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_4_r_5;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_242__DOT__io_outputC_3_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_242__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_10_r 
+            = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_242__DOT__io_outputC_2_REG;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_9_r_1 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_9_r;
+        vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_8_r_2 
+            = vlSelf->axi_sa16__DOT__uut__DOT__postProcessor__DOT__io_output_8_r_1;
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_226__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_226__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_211__DOT__io_outputC_3_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_211__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_211__DOT__io_outputC_2_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_211__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG 
+            = (0xffffU & (((0xff00U & ((- (IData)((1U 
+                                                   & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_242__DOT__REG_0) 
+                                                      >> 7U)))) 
+                                       << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_242__DOT__REG_0)) 
+                          * ((0xff00U & ((- (IData)(
+                                                    (1U 
+                                                     & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0) 
+                                                        >> 7U)))) 
+                                         << 8U)) | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0))));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__io_outputC_1_REG 
+            = (0xfffffU & vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG);
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_243__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__io_outputC_0_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_227__DOT__io_outputC_0_REG)));
+        if (vlSelf->axi_sa16__DOT__uut__DOT__REG_14) {
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_228__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_229__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_230__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_231__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_232__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_233__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__vectorProcessingElementVector_0_3__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__vectorProcessingElementVector_0_2__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__vectorProcessingElementVector_0_1__DOT__registerB_0;
+            vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_234__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0 
+                = vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__vectorProcessingElementVector_0_0__DOT__registerB_0;
+        }
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_196__DOT__io_outputC_3_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_196__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_196__DOT__io_outputC_2_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_196__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_196__DOT__io_outputC_1_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_196__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_212__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_196__DOT__io_outputC_0_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_196__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_197__DOT__io_outputC_3_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_197__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_197__DOT__io_outputC_2_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_197__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_197__DOT__io_outputC_1_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_197__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_213__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_197__DOT__io_outputC_0_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_197__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_198__DOT__io_outputC_3_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_198__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_198__DOT__io_outputC_2_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_198__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_198__DOT__io_outputC_1_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_198__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_214__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_198__DOT__io_outputC_0_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_198__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_199__DOT__io_outputC_3_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_199__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_199__DOT__io_outputC_2_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_199__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_199__DOT__io_outputC_1_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_199__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_215__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_199__DOT__io_outputC_0_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_199__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_200__DOT__io_outputC_3_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_200__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_200__DOT__io_outputC_2_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_200__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_200__DOT__io_outputC_1_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_200__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_216__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_200__DOT__io_outputC_0_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_200__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_201__DOT__io_outputC_3_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_201__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_201__DOT__io_outputC_2_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_201__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_201__DOT__io_outputC_1_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_201__DOT__io_outputC_1_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__vectorProcessingElementVector_0_0__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_217__DOT__vectorProcessingElementVector_0_0__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_201__DOT__io_outputC_0_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_201__DOT__io_outputC_0_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__vectorProcessingElementVector_0_3__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__vectorProcessingElementVector_0_3__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_202__DOT__io_outputC_3_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_202__DOT__io_outputC_3_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__vectorProcessingElementVector_0_2__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__vectorProcessingElementVector_0_2__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_202__DOT__io_outputC_2_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_202__DOT__io_outputC_2_REG)));
+        vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__vectorProcessingElementVector_0_1__DOT__io_outputC_REG 
+            = (0x1fffffU & (((0x1f0000U & ((- (IData)(
+                                                      (1U 
+                                                       & ((IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG) 
+                                                          >> 0xfU)))) 
+                                           << 0x10U)) 
+                             | (IData)(vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_218__DOT__vectorProcessingElementVector_0_1__DOT__multiplyResult_multiplier__DOT__io_output_0_REG)) 
+                            + ((0x100000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_202__DOT__io_outputC_1_REG 
+                                             << 1U)) 
+                               | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_202__DOT__io_outputC_1_REG)));
+    }
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_32__io_inputC_3 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_16__DOT__io_outputC_3_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_16__DOT__io_outputC_3_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_32__io_inputC_2 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_16__DOT__io_outputC_2_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_16__DOT__io_outputC_2_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_32__io_inputC_1 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_16__DOT__io_outputC_1_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_16__DOT__io_outputC_1_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_32__io_inputC_0 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_16__DOT__io_outputC_0_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_16__DOT__io_outputC_0_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_33__io_inputC_3 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_17__DOT__io_outputC_3_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_17__DOT__io_outputC_3_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_33__io_inputC_2 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_17__DOT__io_outputC_2_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_17__DOT__io_outputC_2_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_33__io_inputC_1 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_17__DOT__io_outputC_1_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_17__DOT__io_outputC_1_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_33__io_inputC_0 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_17__DOT__io_outputC_0_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_17__DOT__io_outputC_0_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_34__io_inputC_3 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_18__DOT__io_outputC_3_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_18__DOT__io_outputC_3_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_34__io_inputC_2 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_18__DOT__io_outputC_2_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_18__DOT__io_outputC_2_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_34__io_inputC_1 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_18__DOT__io_outputC_1_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_18__DOT__io_outputC_1_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_34__io_inputC_0 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_18__DOT__io_outputC_0_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_18__DOT__io_outputC_0_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_35__io_inputC_3 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_19__DOT__io_outputC_3_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_19__DOT__io_outputC_3_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_35__io_inputC_2 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_19__DOT__io_outputC_2_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_19__DOT__io_outputC_2_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_35__io_inputC_1 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_19__DOT__io_outputC_1_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_19__DOT__io_outputC_1_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_35__io_inputC_0 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_19__DOT__io_outputC_0_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_19__DOT__io_outputC_0_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_36__io_inputC_3 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_20__DOT__io_outputC_3_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_20__DOT__io_outputC_3_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_36__io_inputC_2 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_20__DOT__io_outputC_2_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_20__DOT__io_outputC_2_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_36__io_inputC_1 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_20__DOT__io_outputC_1_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_20__DOT__io_outputC_1_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_36__io_inputC_0 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_20__DOT__io_outputC_0_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_20__DOT__io_outputC_0_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_37__io_inputC_3 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_21__DOT__io_outputC_3_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_21__DOT__io_outputC_3_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_37__io_inputC_2 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_21__DOT__io_outputC_2_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_21__DOT__io_outputC_2_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_37__io_inputC_1 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_21__DOT__io_outputC_1_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_21__DOT__io_outputC_1_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_37__io_inputC_0 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_21__DOT__io_outputC_0_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_21__DOT__io_outputC_0_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_38__io_inputC_3 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_22__DOT__io_outputC_3_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_22__DOT__io_outputC_3_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_38__io_inputC_2 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_22__DOT__io_outputC_2_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_22__DOT__io_outputC_2_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_38__io_inputC_1 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_22__DOT__io_outputC_1_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_22__DOT__io_outputC_1_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_38__io_inputC_0 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_22__DOT__io_outputC_0_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_22__DOT__io_outputC_0_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_39__io_inputC_3 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_23__DOT__io_outputC_3_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_23__DOT__io_outputC_3_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_39__io_inputC_2 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_23__DOT__io_outputC_2_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_23__DOT__io_outputC_2_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_39__io_inputC_1 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_23__DOT__io_outputC_1_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_23__DOT__io_outputC_1_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_39__io_inputC_0 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_23__DOT__io_outputC_0_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_23__DOT__io_outputC_0_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_40__io_inputC_3 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_24__DOT__io_outputC_3_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_24__DOT__io_outputC_3_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_40__io_inputC_2 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_24__DOT__io_outputC_2_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_24__DOT__io_outputC_2_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_40__io_inputC_1 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_24__DOT__io_outputC_1_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_24__DOT__io_outputC_1_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_40__io_inputC_0 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_24__DOT__io_outputC_0_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_24__DOT__io_outputC_0_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_41__io_inputC_3 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_25__DOT__io_outputC_3_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_25__DOT__io_outputC_3_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_41__io_inputC_2 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_25__DOT__io_outputC_2_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_25__DOT__io_outputC_2_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_41__io_inputC_1 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_25__DOT__io_outputC_1_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_25__DOT__io_outputC_1_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_41__io_inputC_0 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_25__DOT__io_outputC_0_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_25__DOT__io_outputC_0_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_42__io_inputC_3 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_26__DOT__io_outputC_3_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_26__DOT__io_outputC_3_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_42__io_inputC_2 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_26__DOT__io_outputC_2_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_26__DOT__io_outputC_2_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_42__io_inputC_1 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_26__DOT__io_outputC_1_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_26__DOT__io_outputC_1_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_42__io_inputC_0 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_26__DOT__io_outputC_0_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_26__DOT__io_outputC_0_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_43__io_inputC_3 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_27__DOT__io_outputC_3_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_27__DOT__io_outputC_3_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_43__io_inputC_2 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_27__DOT__io_outputC_2_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_27__DOT__io_outputC_2_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_43__io_inputC_1 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_27__DOT__io_outputC_1_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_27__DOT__io_outputC_1_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_43__io_inputC_0 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_27__DOT__io_outputC_0_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_27__DOT__io_outputC_0_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_44__io_inputC_3 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_28__DOT__io_outputC_3_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_28__DOT__io_outputC_3_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_44__io_inputC_2 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_28__DOT__io_outputC_2_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_28__DOT__io_outputC_2_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_44__io_inputC_1 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_28__DOT__io_outputC_1_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_28__DOT__io_outputC_1_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_44__io_inputC_0 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_28__DOT__io_outputC_0_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_28__DOT__io_outputC_0_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_45__io_inputC_3 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_29__DOT__io_outputC_3_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_29__DOT__io_outputC_3_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_45__io_inputC_2 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_29__DOT__io_outputC_2_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_29__DOT__io_outputC_2_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_45__io_inputC_1 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_29__DOT__io_outputC_1_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_29__DOT__io_outputC_1_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_45__io_inputC_0 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_29__DOT__io_outputC_0_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_29__DOT__io_outputC_0_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_46__io_inputC_3 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_30__DOT__io_outputC_3_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_30__DOT__io_outputC_3_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_46__io_inputC_2 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_30__DOT__io_outputC_2_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_30__DOT__io_outputC_2_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_46__io_inputC_1 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_30__DOT__io_outputC_1_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_30__DOT__io_outputC_1_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_46__io_inputC_0 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_30__DOT__io_outputC_0_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_30__DOT__io_outputC_0_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_47__io_inputC_3 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_31__DOT__io_outputC_3_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_31__DOT__io_outputC_3_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_47__io_inputC_2 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_31__DOT__io_outputC_2_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_31__DOT__io_outputC_2_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_47__io_inputC_1 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_31__DOT__io_outputC_1_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_31__DOT__io_outputC_1_REG);
+    vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT____Vcellinp__group_processing_element_47__io_inputC_0 
+        = ((0x20000U & (vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_31__DOT__io_outputC_0_REG 
+                        << 1U)) | vlSelf->axi_sa16__DOT__uut__DOT__systolicTensorArray__DOT__group_processing_element_31__DOT__io_outputC_0_REG);
+}

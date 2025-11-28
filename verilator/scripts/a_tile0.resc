@@ -1,0 +1,17 @@
+# A 16바이트(16 DW) 1타일 적재
+sysbus WriteDoubleWord 0x80000100 0x00000001
+sysbus WriteDoubleWord 0x80000104 0x00000002
+sysbus WriteDoubleWord 0x80000108 0x00000003
+sysbus WriteDoubleWord 0x8000010C 0x00000004
+sysbus WriteDoubleWord 0x80000110 0x00000005
+sysbus WriteDoubleWord 0x80000114 0x00000006
+sysbus WriteDoubleWord 0x80000118 0x00000007
+sysbus WriteDoubleWord 0x8000011C 0x00000008
+sysbus WriteDoubleWord 0x80000120 0x00000009
+sysbus WriteDoubleWord 0x80000124 0x0000000A
+sysbus WriteDoubleWord 0x80000128 0x0000000B
+sysbus WriteDoubleWord 0x8000012C 0x0000000C
+sysbus WriteDoubleWord 0x80000130 0x0000000D
+sysbus WriteDoubleWord 0x80000134 0x0000000E
+sysbus WriteDoubleWord 0x80000138 0x0000000F
+sysbus WriteDoubleWord 0x8000013C 0x00000010

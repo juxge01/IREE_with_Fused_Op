@@ -1,0 +1,47 @@
+using sysbus
+mach create
+
+machine LoadPlatformDescription $ORIGIN/platform_basic.repl
+
+# Enable GDB ✅
+# machine StartGdbServer 3333 
+
+showAnalyzer uart
+logLevel 2
+
+# Create a Telnet connection to the UART ✅
+# emulation CreateServerSocketTerminal 33335 "externalUART"
+# connector Connect sysbus.uart externalUART
+
+## telnet localhost 33335 # input termial
+
+# $bin?=@/home/jueun/park/IREE/iree-rv32-springbok-legacy/build/build-riscv/samples/ecg_small/ecg_small_fp32_emitc_static
+$bin?=$ORIGIN/fw/fw.elf
+# $bin?=$ORIGIN/demo/fw.elf
+# $bin?=$ORIGIN/demo1/fw.elf
+# $bin?=$ORIGIN/demo2/fw.elf
+
+macro reset
+"""
+    sysbus LoadELF $bin
+    sysbus.cpu IsHalted false
+    # sysbus.cpu IsHalted true
+"""
+runMacro $reset
+
+echo "[[16x16 systolic array]]"
+
+## CPU halted - true
+# ------ 1) Load A, B
+# include $ORIGIN/scripts/b_init.resc
+# include $ORIGIN/scripts/a_tile0.resc
+
+start
+# emulation RunFor "3 ms"
+
+# ---- 4) 결과 읽기 ----
+echo "=== OUT window dump ==="
+sysbus ReadDoubleWord 0x80001000
+sysbus ReadDoubleWord 0x80001004
+sysbus ReadDoubleWord 0x80001008
+sysbus ReadDoubleWord 0x8000100C

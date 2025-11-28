@@ -1,0 +1,27 @@
+------------------------------------------------------------------------------------------------------------
+Benchmark                                                  Time             CPU   Iterations UserCounters...
+------------------------------------------------------------------------------------------------------------
+BM_torch-jit-export/process_time/real_time              56.4 ms         56.4 ms           11 items_per_second=17.7173/s
+BM_torch-jit-export/process_time/real_time              55.6 ms         55.6 ms           11 items_per_second=17.985/s
+BM_torch-jit-export/process_time/real_time              55.3 ms         55.3 ms           11 items_per_second=18.0695/s
+BM_torch-jit-export/process_time/real_time              56.9 ms         56.9 ms           11 items_per_second=17.5708/s
+BM_torch-jit-export/process_time/real_time              55.9 ms         55.9 ms           11 items_per_second=17.9041/s
+BM_torch-jit-export/process_time/real_time              56.1 ms         56.1 ms           11 items_per_second=17.8282/s
+BM_torch-jit-export/process_time/real_time              55.7 ms         55.7 ms           11 items_per_second=17.9404/s
+BM_torch-jit-export/process_time/real_time              55.8 ms         55.8 ms           11 items_per_second=17.9235/s
+BM_torch-jit-export/process_time/real_time              56.1 ms         56.1 ms           11 items_per_second=17.8299/s
+BM_torch-jit-export/process_time/real_time              55.6 ms         55.6 ms           11 items_per_second=17.99/s
+BM_torch-jit-export/process_time/real_time              55.8 ms         55.8 ms           11 items_per_second=17.9258/s
+BM_torch-jit-export/process_time/real_time              56.6 ms         56.6 ms           11 items_per_second=17.6759/s
+BM_torch-jit-export/process_time/real_time              57.4 ms         57.4 ms           11 items_per_second=17.4234/s
+BM_torch-jit-export/process_time/real_time              57.5 ms         57.5 ms           11 items_per_second=17.3783/s
+BM_torch-jit-export/process_time/real_time              56.5 ms         56.5 ms           11 items_per_second=17.7073/s
+BM_torch-jit-export/process_time/real_time              56.1 ms         56.1 ms           11 items_per_second=17.8394/s
+BM_torch-jit-export/process_time/real_time              56.3 ms         56.3 ms           11 items_per_second=17.7754/s
+BM_torch-jit-export/process_time/real_time              55.1 ms         55.1 ms           11 items_per_second=18.1557/s
+BM_torch-jit-export/process_time/real_time              55.3 ms         55.3 ms           11 items_per_second=18.0871/s
+BM_torch-jit-export/process_time/real_time              54.9 ms         54.9 ms           11 items_per_second=18.2147/s
+BM_torch-jit-export/process_time/real_time_mean         56.0 ms         56.0 ms           20 items_per_second=17.8471/s
+BM_torch-jit-export/process_time/real_time_median       56.0 ms         56.0 ms           20 items_per_second=17.8717/s
+BM_torch-jit-export/process_time/real_time_stddev      0.706 ms        0.706 ms           20 items_per_second=0.223385/s
+BM_torch-jit-export/process_time/real_time_cv           1.26 %          1.26 %            20 items_per_second=1.25%

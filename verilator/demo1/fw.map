@@ -1,0 +1,82 @@
+
+There are no discarded input sections
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x30000000         0x01000000         xw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD start.o
+LOAD main.o
+LOAD runtime.o
+LOAD mlir/offload_sa16.o
+
+.text           0x30000000      0x375
+ *(.init)
+ .init          0x30000000       0x2a start.o
+                0x30000000                _start
+ *(.text .text.*)
+ .text          0x3000002a        0x0 start.o
+ .text          0x3000002a        0x0 main.o
+ .text.startup  0x3000002a       0xe6 main.o
+                0x3000002a                main
+ .text          0x30000110       0x84 runtime.o
+                0x30000110                _mlir_ciface_sa16_load_B
+                0x30000134                _mlir_ciface_sa16_run_tile
+ .text          0x30000194      0x1b6 mlir/offload_sa16.o
+                0x30000202                offload_tile
+                0x3000029e                _mlir_ciface_offload_tile
+ *(.rodata .rodata.*)
+ *fill*         0x3000034a        0x2 
+ .rodata.str1.4
+                0x3000034c       0x29 main.o
+
+.eh_frame       0x30000378       0xcc
+ .eh_frame      0x30000378       0xcc mlir/offload_sa16.o
+
+.rela.dyn       0x30000444        0x0
+ .rela.init     0x30000444        0x0 start.o
+
+.data           0x30000444        0x0
+ *(.data .data.*)
+ .data          0x30000444        0x0 start.o
+ .data          0x30000444        0x0 main.o
+ .data          0x30000444        0x0 runtime.o
+ *(.sdata .sdata.*)
+
+.bss            0x30000444      0x150
+                0x30000444                        __bss_start = .
+ *(.bss .bss.*)
+ .bss           0x30000444        0x0 start.o
+ .bss           0x30000444      0x150 main.o
+ .bss           0x30000594        0x0 runtime.o
+ *(.sbss .sbss.*)
+ *(COMMON)
+                0x30000594                        __bss_end = .
+                0x30000598                        . = ALIGN (0x8)
+                0x31000000                        __stack_top = (ORIGIN (RAM) + LENGTH (RAM))
+OUTPUT(fw.elf elf32-littleriscv)
+
+.riscv.attributes
+                0x00000000       0x67
+ .riscv.attributes
+                0x00000000       0x32 start.o
+ .riscv.attributes
+                0x00000032       0x38 main.o
+ .riscv.attributes
+                0x0000006a       0x34 runtime.o
+ .riscv.attributes
+                0x0000009e       0x55 mlir/offload_sa16.o
+
+.comment        0x00000000       0x1b
+ .comment       0x00000000       0x1b main.o
+                                 0x1c (size before relaxing)
+ .comment       0x0000001b       0x1c runtime.o
+
+.note.GNU-stack
+                0x00000000        0x0
+ .note.GNU-stack
+                0x00000000        0x0 mlir/offload_sa16.o

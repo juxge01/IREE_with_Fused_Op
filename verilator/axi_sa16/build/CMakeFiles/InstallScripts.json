@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,1195 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      The system is: Linux - 6.8.0-60-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/4.0.3/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/4.0.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-Yw2Dbq"
+      binary: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-Yw2Dbq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-Yw2Dbq'
+        
+        Run Build Command(s): /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c8001/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c8001.dir/build.make CMakeFiles/cmTC_c8001.dir/build
+        gmake[1]: Entering directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-Yw2Dbq'
+        Building C object CMakeFiles/cmTC_c8001.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_c8001.dir/CMakeCCompilerABI.c.o -c /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 10.5.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 10.5.0 (Ubuntu 10.5.0-1ubuntu1~22.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c8001.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/10/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_c8001.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccntQEBl.s
+        GNU C17 (Ubuntu 10.5.0-1ubuntu1~22.04) version 10.5.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 10.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/10/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C17 (Ubuntu 10.5.0-1ubuntu1~22.04) version 10.5.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 10.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 8e18376ed9531e97684a16007edfeb8b
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c8001.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+         as -v --64 -o CMakeFiles/cmTC_c8001.dir/CMakeCCompilerABI.c.o /tmp/ccntQEBl.s
+        GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c8001.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+        Linking C executable cmTC_c8001
+        /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8001.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 10.5.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 10.5.0 (Ubuntu 10.5.0-1ubuntu1~22.04) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c8001' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUFJNU8.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c8001 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. -v CMakeFiles/cmTC_c8001.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 10.5.0
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUFJNU8.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c8001 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. -v CMakeFiles/cmTC_c8001.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.38
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c8001' '-mtune=generic' '-march=x86-64'
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_c8001.dir/CMakeCCompilerABI.c.o -o cmTC_c8001
+        gmake[1]: Leaving directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-Yw2Dbq'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:191 (message)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/10/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/10/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/10/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/10/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-Yw2Dbq']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c8001/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_c8001.dir/build.make CMakeFiles/cmTC_c8001.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-Yw2Dbq']
+        ignore line: [Building C object CMakeFiles/cmTC_c8001.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_c8001.dir/CMakeCCompilerABI.c.o -c /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 10.5.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 10.5.0 (Ubuntu 10.5.0-1ubuntu1~22.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c8001.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/10/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_c8001.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccntQEBl.s]
+        ignore line: [GNU C17 (Ubuntu 10.5.0-1ubuntu1~22.04) version 10.5.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 10.5.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/10/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (Ubuntu 10.5.0-1ubuntu1~22.04) version 10.5.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 10.5.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 8e18376ed9531e97684a16007edfeb8b]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c8001.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_c8001.dir/CMakeCCompilerABI.c.o /tmp/ccntQEBl.s]
+        ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c8001.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking C executable cmTC_c8001]
+        ignore line: [/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8001.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 10.5.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 10.5.0 (Ubuntu 10.5.0-1ubuntu1~22.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c8001' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUFJNU8.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c8001 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. -v CMakeFiles/cmTC_c8001.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/10/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccUFJNU8.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_c8001] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/10] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_c8001.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 10.5.0]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUFJNU8.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c8001 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. -v CMakeFiles/cmTC_c8001.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10] ==> [/usr/lib/gcc/x86_64-linux-gnu/10]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/10;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.38
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-CqBWSg"
+      binary: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-CqBWSg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-CqBWSg'
+        
+        Run Build Command(s): /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d0a04/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d0a04.dir/build.make CMakeFiles/cmTC_d0a04.dir/build
+        gmake[1]: Entering directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-CqBWSg'
+        Building CXX object CMakeFiles/cmTC_d0a04.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_d0a04.dir/CMakeCXXCompilerABI.cpp.o -c /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 10.5.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 10.5.0 (Ubuntu 10.5.0-1ubuntu1~22.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d0a04.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/10/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d0a04.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccoiBbn7.s
+        GNU C++14 (Ubuntu 10.5.0-1ubuntu1~22.04) version 10.5.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 10.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/10"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/10
+         /usr/include/x86_64-linux-gnu/c++/10
+         /usr/include/c++/10/backward
+         /usr/lib/gcc/x86_64-linux-gnu/10/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C++14 (Ubuntu 10.5.0-1ubuntu1~22.04) version 10.5.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 10.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: bccc5c3c4127648f55ffc3b3d0e2e766
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d0a04.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         as -v --64 -o CMakeFiles/cmTC_d0a04.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccoiBbn7.s
+        GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d0a04.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        Linking CXX executable cmTC_d0a04
+        /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0a04.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 10.5.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 10.5.0 (Ubuntu 10.5.0-1ubuntu1~22.04) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d0a04' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/cccRR5G8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d0a04 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. -v CMakeFiles/cmTC_d0a04.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 10.5.0
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/cccRR5G8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d0a04 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. -v CMakeFiles/cmTC_d0a04.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.38
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d0a04' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_d0a04.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d0a04
+        gmake[1]: Leaving directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-CqBWSg'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:191 (message)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/10]
+          add: [/usr/include/x86_64-linux-gnu/c++/10]
+          add: [/usr/include/c++/10/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/10/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/10] ==> [/usr/include/c++/10]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/10] ==> [/usr/include/x86_64-linux-gnu/c++/10]
+        collapse include dir [/usr/include/c++/10/backward] ==> [/usr/include/c++/10/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/10/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/10/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/10;/usr/include/x86_64-linux-gnu/c++/10;/usr/include/c++/10/backward;/usr/lib/gcc/x86_64-linux-gnu/10/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-CqBWSg']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d0a04/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_d0a04.dir/build.make CMakeFiles/cmTC_d0a04.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-CqBWSg']
+        ignore line: [Building CXX object CMakeFiles/cmTC_d0a04.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_d0a04.dir/CMakeCXXCompilerABI.cpp.o -c /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 10.5.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 10.5.0 (Ubuntu 10.5.0-1ubuntu1~22.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d0a04.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/10/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d0a04.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccoiBbn7.s]
+        ignore line: [GNU C++14 (Ubuntu 10.5.0-1ubuntu1~22.04) version 10.5.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 10.5.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/10"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/10]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/10]
+        ignore line: [ /usr/include/c++/10/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/10/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++14 (Ubuntu 10.5.0-1ubuntu1~22.04) version 10.5.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 10.5.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: bccc5c3c4127648f55ffc3b3d0e2e766]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d0a04.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_d0a04.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccoiBbn7.s]
+        ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d0a04.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking CXX executable cmTC_d0a04]
+        ignore line: [/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0a04.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 10.5.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 10.5.0 (Ubuntu 10.5.0-1ubuntu1~22.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d0a04' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/cccRR5G8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d0a04 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. -v CMakeFiles/cmTC_d0a04.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/10/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cccRR5G8.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_d0a04] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/10] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_d0a04.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 10.5.0]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/cccRR5G8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d0a04 /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. -v CMakeFiles/cmTC_d0a04.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10] ==> [/usr/lib/gcc/x86_64-linux-gnu/10]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/10;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.38
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/home/jueun/park/renode/renode-latest/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "/home/jueun/park/renode/renode-latest/renode-dpi-examples/cmake/configure-and-verilate.cmake:106 (find_package)"
+      - "CMakeLists.txt:49 (include)"
+    checks:
+      - "Performing Test _faligned_new"
+    directories:
+      source: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-qA2s9n"
+      binary: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-qA2s9n"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "_faligned_new"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-qA2s9n'
+        
+        Run Build Command(s): /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0f80c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0f80c.dir/build.make CMakeFiles/cmTC_0f80c.dir/build
+        gmake[1]: Entering directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-qA2s9n'
+        Building CXX object CMakeFiles/cmTC_0f80c.dir/src.cxx.o
+        /usr/bin/c++ -D_faligned_new  -faligned-new -o CMakeFiles/cmTC_0f80c.dir/src.cxx.o -c /home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-qA2s9n/src.cxx
+        Linking CXX executable cmTC_0f80c
+        /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f80c.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_0f80c.dir/src.cxx.o -o cmTC_0f80c
+        gmake[1]: Leaving directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-qA2s9n'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/home/jueun/park/renode/renode-latest/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "/home/jueun/park/renode/renode-latest/renode-dpi-examples/cmake/configure-and-verilate.cmake:106 (find_package)"
+      - "CMakeLists.txt:49 (include)"
+    checks:
+      - "Performing Test _fbracket_depth_4096"
+    directories:
+      source: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-B9RMH2"
+      binary: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-B9RMH2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "_fbracket_depth_4096"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-B9RMH2'
+        
+        Run Build Command(s): /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_62108/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_62108.dir/build.make CMakeFiles/cmTC_62108.dir/build
+        gmake[1]: Entering directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-B9RMH2'
+        Building CXX object CMakeFiles/cmTC_62108.dir/src.cxx.o
+        /usr/bin/c++ -D_fbracket_depth_4096  -fbracket-depth=4096 -o CMakeFiles/cmTC_62108.dir/src.cxx.o -c /home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-B9RMH2/src.cxx
+        c++: error: unrecognized command-line option '-fbracket-depth=4096'
+        gmake[1]: *** [CMakeFiles/cmTC_62108.dir/build.make:81: CMakeFiles/cmTC_62108.dir/src.cxx.o] Error 1
+        gmake[1]: Leaving directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-B9RMH2'
+        gmake: *** [Makefile:134: cmTC_62108/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/home/jueun/park/renode/renode-latest/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "/home/jueun/park/renode/renode-latest/renode-dpi-examples/cmake/configure-and-verilate.cmake:106 (find_package)"
+      - "CMakeLists.txt:49 (include)"
+    checks:
+      - "Performing Test _fcf_protection_none"
+    directories:
+      source: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-lBo7W8"
+      binary: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-lBo7W8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "_fcf_protection_none"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-lBo7W8'
+        
+        Run Build Command(s): /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_44aee/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_44aee.dir/build.make CMakeFiles/cmTC_44aee.dir/build
+        gmake[1]: Entering directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-lBo7W8'
+        Building CXX object CMakeFiles/cmTC_44aee.dir/src.cxx.o
+        /usr/bin/c++ -D_fcf_protection_none  -fcf-protection=none -o CMakeFiles/cmTC_44aee.dir/src.cxx.o -c /home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-lBo7W8/src.cxx
+        Linking CXX executable cmTC_44aee
+        /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44aee.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_44aee.dir/src.cxx.o -o cmTC_44aee
+        gmake[1]: Leaving directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-lBo7W8'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/home/jueun/park/renode/renode-latest/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "/home/jueun/park/renode/renode-latest/renode-dpi-examples/cmake/configure-and-verilate.cmake:106 (find_package)"
+      - "CMakeLists.txt:49 (include)"
+    checks:
+      - "Performing Test _mno_cet"
+    directories:
+      source: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-iHwu4M"
+      binary: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-iHwu4M"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "_mno_cet"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-iHwu4M'
+        
+        Run Build Command(s): /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1d1e5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1d1e5.dir/build.make CMakeFiles/cmTC_1d1e5.dir/build
+        gmake[1]: Entering directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-iHwu4M'
+        Building CXX object CMakeFiles/cmTC_1d1e5.dir/src.cxx.o
+        /usr/bin/c++ -D_mno_cet  -mno-cet -o CMakeFiles/cmTC_1d1e5.dir/src.cxx.o -c /home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-iHwu4M/src.cxx
+        c++: error: unrecognized command-line option '-mno-cet'; did you mean '-mno-aes'?
+        gmake[1]: *** [CMakeFiles/cmTC_1d1e5.dir/build.make:81: CMakeFiles/cmTC_1d1e5.dir/src.cxx.o] Error 1
+        gmake[1]: Leaving directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-iHwu4M'
+        gmake: *** [Makefile:134: cmTC_1d1e5/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/home/jueun/park/renode/renode-latest/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "/home/jueun/park/renode/renode-latest/renode-dpi-examples/cmake/configure-and-verilate.cmake:106 (find_package)"
+      - "CMakeLists.txt:49 (include)"
+    checks:
+      - "Performing Test _Qunused_arguments"
+    directories:
+      source: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-jdwhdU"
+      binary: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-jdwhdU"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "_Qunused_arguments"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-jdwhdU'
+        
+        Run Build Command(s): /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_dc199/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_dc199.dir/build.make CMakeFiles/cmTC_dc199.dir/build
+        gmake[1]: Entering directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-jdwhdU'
+        Building CXX object CMakeFiles/cmTC_dc199.dir/src.cxx.o
+        /usr/bin/c++ -D_Qunused_arguments  -Qunused-arguments -o CMakeFiles/cmTC_dc199.dir/src.cxx.o -c /home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-jdwhdU/src.cxx
+        c++: error: unrecognized command-line option '-Qunused-arguments'
+        gmake[1]: *** [CMakeFiles/cmTC_dc199.dir/build.make:81: CMakeFiles/cmTC_dc199.dir/src.cxx.o] Error 1
+        gmake[1]: Leaving directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-jdwhdU'
+        gmake: *** [Makefile:134: cmTC_dc199/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/home/jueun/park/renode/renode-latest/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "/home/jueun/park/renode/renode-latest/renode-dpi-examples/cmake/configure-and-verilate.cmake:106 (find_package)"
+      - "CMakeLists.txt:49 (include)"
+    checks:
+      - "Performing Test _Wno_bool_operation"
+    directories:
+      source: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-oSneQU"
+      binary: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-oSneQU"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "_Wno_bool_operation"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-oSneQU'
+        
+        Run Build Command(s): /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b60dd/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b60dd.dir/build.make CMakeFiles/cmTC_b60dd.dir/build
+        gmake[1]: Entering directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-oSneQU'
+        Building CXX object CMakeFiles/cmTC_b60dd.dir/src.cxx.o
+        /usr/bin/c++ -D_Wno_bool_operation  -Wno-bool-operation -o CMakeFiles/cmTC_b60dd.dir/src.cxx.o -c /home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-oSneQU/src.cxx
+        Linking CXX executable cmTC_b60dd
+        /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b60dd.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_b60dd.dir/src.cxx.o -o cmTC_b60dd
+        gmake[1]: Leaving directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-oSneQU'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/home/jueun/park/renode/renode-latest/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "/home/jueun/park/renode/renode-latest/renode-dpi-examples/cmake/configure-and-verilate.cmake:106 (find_package)"
+      - "CMakeLists.txt:49 (include)"
+    checks:
+      - "Performing Test _Wno_tautological_bitwise_compare"
+    directories:
+      source: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-22KKZN"
+      binary: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-22KKZN"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "_Wno_tautological_bitwise_compare"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-22KKZN'
+        
+        Run Build Command(s): /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2d1b1/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2d1b1.dir/build.make CMakeFiles/cmTC_2d1b1.dir/build
+        gmake[1]: Entering directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-22KKZN'
+        Building CXX object CMakeFiles/cmTC_2d1b1.dir/src.cxx.o
+        /usr/bin/c++ -D_Wno_tautological_bitwise_compare  -Wno-tautological-bitwise-compare -o CMakeFiles/cmTC_2d1b1.dir/src.cxx.o -c /home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-22KKZN/src.cxx
+        Linking CXX executable cmTC_2d1b1
+        /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d1b1.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_2d1b1.dir/src.cxx.o -o cmTC_2d1b1
+        gmake[1]: Leaving directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-22KKZN'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/home/jueun/park/renode/renode-latest/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "/home/jueun/park/renode/renode-latest/renode-dpi-examples/cmake/configure-and-verilate.cmake:106 (find_package)"
+      - "CMakeLists.txt:49 (include)"
+    checks:
+      - "Performing Test _Wno_parentheses_equality"
+    directories:
+      source: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-PZmU4s"
+      binary: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-PZmU4s"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "_Wno_parentheses_equality"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-PZmU4s'
+        
+        Run Build Command(s): /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1aff0/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1aff0.dir/build.make CMakeFiles/cmTC_1aff0.dir/build
+        gmake[1]: Entering directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-PZmU4s'
+        Building CXX object CMakeFiles/cmTC_1aff0.dir/src.cxx.o
+        /usr/bin/c++ -D_Wno_parentheses_equality  -Wno-parentheses-equality -o CMakeFiles/cmTC_1aff0.dir/src.cxx.o -c /home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-PZmU4s/src.cxx
+        Linking CXX executable cmTC_1aff0
+        /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1aff0.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_1aff0.dir/src.cxx.o -o cmTC_1aff0
+        gmake[1]: Leaving directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-PZmU4s'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/home/jueun/park/renode/renode-latest/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "/home/jueun/park/renode/renode-latest/renode-dpi-examples/cmake/configure-and-verilate.cmake:106 (find_package)"
+      - "CMakeLists.txt:49 (include)"
+    checks:
+      - "Performing Test _Wno_sign_compare"
+    directories:
+      source: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-47DBu4"
+      binary: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-47DBu4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "_Wno_sign_compare"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-47DBu4'
+        
+        Run Build Command(s): /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7cc57/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7cc57.dir/build.make CMakeFiles/cmTC_7cc57.dir/build
+        gmake[1]: Entering directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-47DBu4'
+        Building CXX object CMakeFiles/cmTC_7cc57.dir/src.cxx.o
+        /usr/bin/c++ -D_Wno_sign_compare  -Wno-sign-compare -o CMakeFiles/cmTC_7cc57.dir/src.cxx.o -c /home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-47DBu4/src.cxx
+        Linking CXX executable cmTC_7cc57
+        /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cc57.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_7cc57.dir/src.cxx.o -o cmTC_7cc57
+        gmake[1]: Leaving directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-47DBu4'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/home/jueun/park/renode/renode-latest/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "/home/jueun/park/renode/renode-latest/renode-dpi-examples/cmake/configure-and-verilate.cmake:106 (find_package)"
+      - "CMakeLists.txt:49 (include)"
+    checks:
+      - "Performing Test _Wno_uninitialized"
+    directories:
+      source: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-EhY9x9"
+      binary: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-EhY9x9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "_Wno_uninitialized"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-EhY9x9'
+        
+        Run Build Command(s): /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bf80f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_bf80f.dir/build.make CMakeFiles/cmTC_bf80f.dir/build
+        gmake[1]: Entering directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-EhY9x9'
+        Building CXX object CMakeFiles/cmTC_bf80f.dir/src.cxx.o
+        /usr/bin/c++ -D_Wno_uninitialized  -Wno-uninitialized -o CMakeFiles/cmTC_bf80f.dir/src.cxx.o -c /home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-EhY9x9/src.cxx
+        Linking CXX executable cmTC_bf80f
+        /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf80f.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_bf80f.dir/src.cxx.o -o cmTC_bf80f
+        gmake[1]: Leaving directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-EhY9x9'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/home/jueun/park/renode/renode-latest/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "/home/jueun/park/renode/renode-latest/renode-dpi-examples/cmake/configure-and-verilate.cmake:106 (find_package)"
+      - "CMakeLists.txt:49 (include)"
+    checks:
+      - "Performing Test _Wno_unused_but_set_variable"
+    directories:
+      source: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-Yvr2HN"
+      binary: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-Yvr2HN"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "_Wno_unused_but_set_variable"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-Yvr2HN'
+        
+        Run Build Command(s): /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_54a17/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_54a17.dir/build.make CMakeFiles/cmTC_54a17.dir/build
+        gmake[1]: Entering directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-Yvr2HN'
+        Building CXX object CMakeFiles/cmTC_54a17.dir/src.cxx.o
+        /usr/bin/c++ -D_Wno_unused_but_set_variable  -Wno-unused-but-set-variable -o CMakeFiles/cmTC_54a17.dir/src.cxx.o -c /home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-Yvr2HN/src.cxx
+        Linking CXX executable cmTC_54a17
+        /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54a17.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_54a17.dir/src.cxx.o -o cmTC_54a17
+        gmake[1]: Leaving directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-Yvr2HN'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/home/jueun/park/renode/renode-latest/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "/home/jueun/park/renode/renode-latest/renode-dpi-examples/cmake/configure-and-verilate.cmake:106 (find_package)"
+      - "CMakeLists.txt:49 (include)"
+    checks:
+      - "Performing Test _Wno_unused_parameter"
+    directories:
+      source: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-bpk0ct"
+      binary: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-bpk0ct"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "_Wno_unused_parameter"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-bpk0ct'
+        
+        Run Build Command(s): /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fde94/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_fde94.dir/build.make CMakeFiles/cmTC_fde94.dir/build
+        gmake[1]: Entering directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-bpk0ct'
+        Building CXX object CMakeFiles/cmTC_fde94.dir/src.cxx.o
+        /usr/bin/c++ -D_Wno_unused_parameter  -Wno-unused-parameter -o CMakeFiles/cmTC_fde94.dir/src.cxx.o -c /home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-bpk0ct/src.cxx
+        Linking CXX executable cmTC_fde94
+        /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fde94.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_fde94.dir/src.cxx.o -o cmTC_fde94
+        gmake[1]: Leaving directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-bpk0ct'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/home/jueun/park/renode/renode-latest/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "/home/jueun/park/renode/renode-latest/renode-dpi-examples/cmake/configure-and-verilate.cmake:106 (find_package)"
+      - "CMakeLists.txt:49 (include)"
+    checks:
+      - "Performing Test _Wno_unused_variable"
+    directories:
+      source: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-0fMieR"
+      binary: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-0fMieR"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "_Wno_unused_variable"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-0fMieR'
+        
+        Run Build Command(s): /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_69430/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_69430.dir/build.make CMakeFiles/cmTC_69430.dir/build
+        gmake[1]: Entering directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-0fMieR'
+        Building CXX object CMakeFiles/cmTC_69430.dir/src.cxx.o
+        /usr/bin/c++ -D_Wno_unused_variable  -Wno-unused-variable -o CMakeFiles/cmTC_69430.dir/src.cxx.o -c /home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-0fMieR/src.cxx
+        Linking CXX executable cmTC_69430
+        /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69430.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_69430.dir/src.cxx.o -o cmTC_69430
+        gmake[1]: Leaving directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-0fMieR'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/home/jueun/park/renode/renode-latest/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "/home/jueun/park/renode/renode-latest/renode-dpi-examples/cmake/configure-and-verilate.cmake:106 (find_package)"
+      - "CMakeLists.txt:49 (include)"
+    checks:
+      - "Performing Test _Wno_shadow"
+    directories:
+      source: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-QCJSrG"
+      binary: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-QCJSrG"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "_Wno_shadow"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-QCJSrG'
+        
+        Run Build Command(s): /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2ad90/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2ad90.dir/build.make CMakeFiles/cmTC_2ad90.dir/build
+        gmake[1]: Entering directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-QCJSrG'
+        Building CXX object CMakeFiles/cmTC_2ad90.dir/src.cxx.o
+        /usr/bin/c++ -D_Wno_shadow  -Wno-shadow -o CMakeFiles/cmTC_2ad90.dir/src.cxx.o -c /home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-QCJSrG/src.cxx
+        Linking CXX executable cmTC_2ad90
+        /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ad90.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_2ad90.dir/src.cxx.o -o cmTC_2ad90
+        gmake[1]: Leaving directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-QCJSrG'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/home/jueun/park/renode/renode-latest/verilator/verilator-config.cmake:55 (check_cxx_source_compiles)"
+      - "/home/jueun/park/renode/renode-latest/verilator/verilator-config.cmake:72 (_verilator_check_cxx_libraries)"
+      - "/home/jueun/park/renode/renode-latest/renode-dpi-examples/cmake/configure-and-verilate.cmake:106 (find_package)"
+      - "CMakeLists.txt:49 (include)"
+    checks:
+      - "Performing Test _mt"
+    directories:
+      source: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-xYM2Uw"
+      binary: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-xYM2Uw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "_mt"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-xYM2Uw'
+        
+        Run Build Command(s): /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5023c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5023c.dir/build.make CMakeFiles/cmTC_5023c.dir/build
+        gmake[1]: Entering directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-xYM2Uw'
+        Building CXX object CMakeFiles/cmTC_5023c.dir/src.cxx.o
+        /usr/bin/c++ -D_mt   -o CMakeFiles/cmTC_5023c.dir/src.cxx.o -c /home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-xYM2Uw/src.cxx
+        Linking CXX executable cmTC_5023c
+        /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5023c.dir/link.txt --verbose=1
+        c++: error: unrecognized command-line option ‘-mt’; did you mean ‘-t’?
+        /usr/bin/c++ CMakeFiles/cmTC_5023c.dir/src.cxx.o -o cmTC_5023c  -mt
+        gmake[1]: *** [CMakeFiles/cmTC_5023c.dir/build.make:102: cmTC_5023c] Error 1
+        gmake[1]: Leaving directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-xYM2Uw'
+        gmake: *** [Makefile:134: cmTC_5023c/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/home/jueun/park/renode/renode-latest/verilator/verilator-config.cmake:55 (check_cxx_source_compiles)"
+      - "/home/jueun/park/renode/renode-latest/verilator/verilator-config.cmake:72 (_verilator_check_cxx_libraries)"
+      - "/home/jueun/park/renode/renode-latest/renode-dpi-examples/cmake/configure-and-verilate.cmake:106 (find_package)"
+      - "CMakeLists.txt:49 (include)"
+    checks:
+      - "Performing Test _pthread"
+    directories:
+      source: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-OiVRCR"
+      binary: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-OiVRCR"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "_pthread"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-OiVRCR'
+        
+        Run Build Command(s): /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_348e7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_348e7.dir/build.make CMakeFiles/cmTC_348e7.dir/build
+        gmake[1]: Entering directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-OiVRCR'
+        Building CXX object CMakeFiles/cmTC_348e7.dir/src.cxx.o
+        /usr/bin/c++ -D_pthread   -o CMakeFiles/cmTC_348e7.dir/src.cxx.o -c /home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-OiVRCR/src.cxx
+        Linking CXX executable cmTC_348e7
+        /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_348e7.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_348e7.dir/src.cxx.o -o cmTC_348e7  -pthread
+        gmake[1]: Leaving directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-OiVRCR'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/home/jueun/park/renode/renode-latest/verilator/verilator-config.cmake:55 (check_cxx_source_compiles)"
+      - "/home/jueun/park/renode/renode-latest/verilator/verilator-config.cmake:72 (_verilator_check_cxx_libraries)"
+      - "/home/jueun/park/renode/renode-latest/renode-dpi-examples/cmake/configure-and-verilate.cmake:106 (find_package)"
+      - "CMakeLists.txt:49 (include)"
+    checks:
+      - "Performing Test _lpthread"
+    directories:
+      source: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-TT7g4U"
+      binary: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-TT7g4U"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "_lpthread"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-TT7g4U'
+        
+        Run Build Command(s): /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_05256/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_05256.dir/build.make CMakeFiles/cmTC_05256.dir/build
+        gmake[1]: Entering directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-TT7g4U'
+        Building CXX object CMakeFiles/cmTC_05256.dir/src.cxx.o
+        /usr/bin/c++ -D_lpthread   -o CMakeFiles/cmTC_05256.dir/src.cxx.o -c /home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-TT7g4U/src.cxx
+        Linking CXX executable cmTC_05256
+        /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05256.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_05256.dir/src.cxx.o -o cmTC_05256  -lpthread
+        gmake[1]: Leaving directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-TT7g4U'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/share/cmake-4.0/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/home/jueun/park/renode/renode-latest/verilator/verilator-config.cmake:55 (check_cxx_source_compiles)"
+      - "/home/jueun/park/renode/renode-latest/verilator/verilator-config.cmake:72 (_verilator_check_cxx_libraries)"
+      - "/home/jueun/park/renode/renode-latest/renode-dpi-examples/cmake/configure-and-verilate.cmake:106 (find_package)"
+      - "CMakeLists.txt:49 (include)"
+    checks:
+      - "Performing Test _latomic"
+    directories:
+      source: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-BgHvRS"
+      binary: "/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-BgHvRS"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "_latomic"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-BgHvRS'
+        
+        Run Build Command(s): /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e66c2/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e66c2.dir/build.make CMakeFiles/cmTC_e66c2.dir/build
+        gmake[1]: Entering directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-BgHvRS'
+        Building CXX object CMakeFiles/cmTC_e66c2.dir/src.cxx.o
+        /usr/bin/c++ -D_latomic   -o CMakeFiles/cmTC_e66c2.dir/src.cxx.o -c /home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-BgHvRS/src.cxx
+        Linking CXX executable cmTC_e66c2
+        /home/jueun/mambaforge/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e66c2.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_e66c2.dir/src.cxx.o -o cmTC_e66c2  -latomic
+        gmake[1]: Leaving directory '/home/jueun/park/renode/renode-latest/renode-dpi-examples/samples/axi_sa16/axi_sa16/build/CMakeFiles/CMakeScratch/TryCompile-BgHvRS'
+        
+      exitCode: 0
+...
